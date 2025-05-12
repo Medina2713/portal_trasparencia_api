@@ -36,13 +36,13 @@ def get_bf_withdrawals_by_city_api(year, month, city_code):
                     headers=headers
                     
                 )
-                #response.raise_for_status()
+                
                 
                 dados = response.json()
                 if not dados:
                     break
                 
-                # Salva cada página como um arquivo separado
+                #Salva cada página como um arquivo separado
                 with open(f"data/raw/Saques_BF_{year}_{month}_{pagina}.json", "w") as f:
                     json.dump(dados, f)
                 

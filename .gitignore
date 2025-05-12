@@ -2,3 +2,5 @@ venv/
 .env
 config.py
 __pycache__
+data/raw/*
+data/temp/*
