@@ -35,16 +35,24 @@ O pipeline é composto por etapas de coleta, processamento e armazenamento dos d
 
 ### Passos para instalação
 
-1. Clone o repositório:
+1. Clone o repositório e vá para o diretório do projeto:
 ```shell
     git clone https://github.com/Medina2713/portal_trasparencia_api.git
+    
 ```
-
+Mudando para o diretorio do projeto
+```shell
+   cd .\portal_trasparencia_api\
+```
+ 
 
 
 2. Crie e ative um ambiente virtual (recomendado):
 ```shell
     python -m venv venv
+```
+Ative a venv
+```shell
     source venv/bin/activate # Linux/Mac
     venv\Scripts\activate # Windows 
 ```
