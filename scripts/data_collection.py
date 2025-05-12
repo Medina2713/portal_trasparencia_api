@@ -30,7 +30,7 @@ def get_bf_withdrawals_by_city_api(year, month, city_code):
             
             try:
                 url = f"{API_BASE_URL}{endpoint}?mesAno={mesAno}&codigoIbge={city_code}&pagina={pagina}"
-                print(f"URL da REQUEST: {url}")
+               
                 response = requests.get(
                     url,
                     headers=headers
